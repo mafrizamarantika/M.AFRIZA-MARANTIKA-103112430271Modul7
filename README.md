@@ -208,7 +208,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%201.png)
+> ![Screenshot bagian x](ssunguided1.modul7.png)
 
 Program ini membuat struktur data stack yang bekerja dengan prinsip LIFO (Last In First Out), artinya data yang terakhir dimasukkan akan keluar lebih dulu. Stack disimpan dalam array dengan penunjuk top untuk posisi teratas. Ada fungsi untuk menambah data (push), menghapus data (pop), menampilkan isi stack (printInfo), dan membalik urutan data (balikStack). Di fungsi main, program menambahkan dan menghapus beberapa nilai, lalu menampilkan isi stack sebelum dan sesudah dibalik.
 
@@ -342,7 +342,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%202.png)
+> ![Screenshot bagian x](ssunguided2.modul7.png)
 
 Program ini membuat dan mengelola struktur data Stack menggunakan array dengan konsep LIFO (Last In First Out), yaitu data yang terakhir dimasukkan akan keluar lebih dulu. File stack.h berisi deklarasi struktur Stack, yang memiliki array data untuk menyimpan elemen dan variabel top untuk menunjukkan posisi data teratas, serta deklarasi fungsi-fungsi operasi stack seperti initStack, push, pop, showStack, reverseStack, dan pushAscending. Pada stack.cpp, fungsi initStack digunakan untuk mengosongkan stack, push menambah data ke atas stack, pop menghapus data teratas, showStack menampilkan isi stack dari atas ke bawah, reverseStack membalik urutan isi stack menggunakan stack sementara, dan pushAscending menambahkan elemen baru ke stack agar tetap dalam urutan menaik. Di main.cpp, fungsi-fungsi tersebut digunakan untuk membuat stack, memasukkan data dengan urutan menaik, menampilkan isi stack, lalu membalik urutan data dan menampilkannya kembali.
 
@@ -465,7 +465,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%203.png)
+> ![Screenshot bagian x](ssunguided3.modul7.png)
 
 Program ini membuat struktur data stack dengan prinsip LIFO (Last In First Out). File stack.h berisi struktur dan deklarasi fungsi stack, sedangkan stack.cpp berisi logika seperti membuat stack, menambah data (push), menghapus data (pop), menampilkan isi (printInfo), membalik urutan (balikStack), dan membaca input dari pengguna (getInputStream). Di main.cpp, program membuat stack, meminta input angka, menampilkan isi stack, lalu membalik dan menampilkannya lagi.
 
